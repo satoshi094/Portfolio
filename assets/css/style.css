@@ -1,7 +1,15 @@
+* {
+  background-color: rgb(10, 180, 10);
+}
 h1 {
   color: blue;
-  font-size: 50px;
+  font-size: 40px;
+  margin-left: 50px;
+  background-color: brown;
+  margin-bottom: 10px;
 }
+/* adding ID="name-box" selector to form a box around h1 */
+/* try deleting #name-box */
 
 header {
   display: flex;
@@ -59,4 +67,26 @@ h2 {
 #About-me p {
   width: 60%;
   margin: 10px;
+}
+
+/* #refactoring-hero image for my work.*/
+
+/* add a class selector for '.card' */
+
+/* create selector for id-' Contact-me". use space around to space the links out  */
+#Contact-me,
+h2 {
+  display: flex;
+  justify-content: flex-start;
+}
+/* failed at spacing contact information */
+#Contact-me {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* add class selector for 4 cards and change the image size of each to 200width/ 200 height */
+.card {
+  height: 200px;
+  width: 200px;
 }
