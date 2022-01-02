@@ -1,92 +1,54 @@
-* {
-  background-color: rgb(10, 180, 10);
-}
-h1 {
-  color: blue;
-  font-size: 40px;
-  margin-left: 50px;
-  background-color: brown;
-  margin-bottom: 10px;
-}
-/* adding ID="name-box" selector to form a box around h1 */
-/* try deleting #name-box */
-
-header {
+ul {
   display: flex;
-  justify-content: space-between;
-  height: 60px;
-  align-items: flex-end;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-nav {
-  width: 30%;
-}
-
-#hero {
-  background-image: url("../images/Portfolio-1.jpg");
-  width: 100%;
-  height: 300px;
-  display: flex;
-  align-items: flex-end;
   justify-content: flex-end;
+  text-decoration: turquoise;
 }
+/* adding soaces between list items */
 
-#hero p {
-  width: 50%;
-  background-color: cyan;
-  padding: 10px;
-  margin: 10px;
+#banner {
+  width: 150%;
+  height: 30vh;
 }
-
+/*TODO: list items in nav bar must be responsive */
 #About-me {
-  display: flex;
-  justify-content: flex-end;
+  display: inline;
+  background-color: tomato;
+  margin: 4px;
 }
 
-h2 {
-  border-right: darkblue solid 5px;
-  margin: 10px;
-  padding: 10px;
-  width: 20%;
+#Work {
+  display: inline;
+  background-color: wheat;
+  margin: 4px;
 }
 
-#About-me div {
-  display: flex;
-  align-items: center;
+#Contact {
+  display: inline;
+  background-color: yellowgreen;
+  margin: 4px;
 }
-#About-me img {
-  width: 30%;
-  height: 200px;
-  margin: 10px;
+/* end of list items in nav bar */
+
+#name-box {
+  display: inline-block;
+  font-size: 150%;
+  background-color: rgb(55, 196, 182);
+  margin-top: 13px;
+  /* text-decoration: underline; */
+  /* padding-top: 5px; */
+  /* padding-left: 30px; */
 }
-#About-me p {
-  width: 60%;
-  margin: 10px;
+/* changed header height to 15vh */
+header {
+  background-color: black;
+  height: 15vh;
+}
+/* added h1 selector */
+h1 {
+  padding-left: 20px;
 }
 
-/* #refactoring-hero image for my work.*/
-
-/* add a class selector for '.card' */
-
-/* create selector for id-' Contact-me". use space around to space the links out  */
-#Contact-me,
-h2 {
-  display: flex;
-  justify-content: flex-start;
-}
-/* failed at spacing contact information */
-#Contact-me {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* add class selector for 4 cards and change the image size of each to 200width/ 200 height */
-.card {
-  height: 200px;
-  width: 200px;
+/* adding body selector. position relative in body */
+body {
+  position: relative;
 }

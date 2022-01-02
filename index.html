@@ -15,19 +15,28 @@
       </div>
       <nav>
         <ul>
-          <li>
-            <a href="#About-me">About me</a>
+          <!-- assigned id's to list items in nav bar -->
+          <li id="About-me">
+            <a href="#About-me">About Me</a>
           </li>
-          <li>
-            <a href="#my-Work">my Work</a>
+          <!--added <br>. Did not work to space items -->
+          
+          <li id="Work">
+            <a href="#my-Work"> Work</a>
           </li>
-          <li>
-            <a href="#Contact-me">Contact me</a>
+          <li id="Contact">
+            <a href="#Contact-me">Contact Me</a>
           </li>
         </ul>
       </nav>
     </header>
 
+    <!-- <div > -->
+     <img id="banner"
+           src="./assets/images/banner-01.png"
+           alt="futuristic gaming themed header image">
+    </div>
+      
     <div id="hero" class="main-placeholder">
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, nostrum
@@ -36,107 +45,129 @@
         ullam?
       </p>
     </div>
+    
 
-    <section id="About-me">
-      <h2>About me</h2>
-      <div>
-        <img
-          src="./assets/images/27PIRATES-articleLarge.jpg"
-          alt="pirate placeholder"
-          class="float-left"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          asperiores quas dolor amet tenetur id ab assumenda suscipit incidunt,
-          qui voluptates, veniam maxime saepe pariatur magni ratione nesciunt
-          quasi soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Enim voluptates architecto a officiis rerum sint labore ea harum
-          explicabo accusantium, possimus eos quis cupiditate totam aspernatur
-          nemo exercitationem, dolorem dolorum!
-        </p>
-      </div>
-    </section>
 
-    <section id="my-Work">
-      <!-- h2 heaeding for section-2 -->
-      <h2>my Work</h2>
-      <!-- work cards -->
-      <img />
-
-      <div>
-        <!-- top card refractor project with 100% -->
-        <div>
+      <section id="About-me">
+        <aside>
+          <h2>About me</h2>
+        </aside>
+        <div class="profile-picture">
           <img
-            src="./assets/images/Portfolio-hero.png"
-            alt="picture of four employees gathered around a desk"
-            id="refactoring-hero"
+            src="./assets/images/About-me-image.jfif"
+            alt="profile picture"
+            class="float-left"
           />
+        </div> 
+        
+        <div id="par-profile">
+         <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+           asperiores quas dolor amet tenetur id ab assumenda suscipit incidunt,
+           qui voluptates, veniam maxime saepe pariatur magni ratione nesciunt
+           quasi soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Enim voluptates architecto a officiis rerum sint labore ea harum
+           explicabo accusantium, possimus eos quis cupiditate totam aspernatur
+           nemo exercitationem, dolorem dolorum!
+         </p>
         </div>
-        <!-- four more cards 50% width -->
+      </section>
+      <!-- adding main element -->
+    <main>
+     <section id="my-Work">
+      <!-- h2 heaeding for section-2 -->
+      <aside>
+        <!-- putting h2 my Work in a div -->
+        <div>
+          <h2>my Work</h2>
+        </div>
+      </aside>
+      <!-- work cards -->
+      <!-- change card classes to class="card" -->
+      <div id="card-1">
+        <div>
+          <!-- top card refractor project with 100% -->
+          <div>
+            <img
+              src="./assets/images/Portfolio-hero.png"
+              alt="picture of four employees gathered around a desk"
+              id="refactoring-hero"
+            />
+          </div>
+          <!-- four more cards 50% width -->
+        </div>
       </div>
+
+        <!-- adding 4 smaller cards in the my work category -->
+        <!-- card 1 -->
+        <div>
+          <div>
+            <img
+              class="card"
+              src="./assets/images/card-1.jfif"
+              alt="placeholder image"
+            />
+            <!-- added src -->
+            <!-- added alt -->
+            <!-- added class-->
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div>
+          <div>
+            <img
+              class="card"
+              src="./assets/images/card-2.jfif"
+              alt="placeholder image"
+            />
+            <!-- added src -->
+            <!-- added alt -->
+            <!-- added class -->
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div>
+          <div>
+            <img
+              class="card"
+              src="./assets/images/card-3.jfif"
+              alt="placeholder image"
+            />
+            <!-- added src -->
+            <!-- added alt -->
+            <!-- added class -->
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div>
+          <div>
+            <img
+              class="card"
+              src="./assets/images/card-4.jfif"
+              alt="placeholder image"
+            />
+            <!-- added src -->
+            <!-- added alt -->
+            <!-- added class-->
+          </div>
+    
+        </div>
+      
+    </main>
     </section>
-    <!-- adding 4 smaller cards in the my work category -->
-    <!-- card 1 -->
-    <div>
-      <div>
-        <img
-          class="card"
-          src="./assets/images/card-1.jfif"
-          alt="placeholder image"
-        />
-        <!-- added src -->
-        <!-- added alt -->
-        <!-- added class-->
-      </div>
-    </div>
-
-    <!-- card 2 -->
-
-    <div>
-      <div>
-        <img
-          class="card"
-          src="./assets/images/card-2.jfif"
-          alt="placeholder image"
-        />
-        <!-- added src -->
-        <!-- added alt -->
-        <!-- added class -->
-      </div>
-    </div>
-
-    <!-- card 3 -->
-
-    <div>
-      <div>
-        <img
-          class="card"
-          src="./assets/images/card-3.jfif"
-          alt="placeholder image"
-        />
-        <!-- added src -->
-        <!-- added alt -->
-        <!-- added class -->
-      </div>
-    </div>
-
-    <!-- card 4 -->
-    <div>
-      <div>
-        <img
-          class="card"
-          src="./assets/images/card-4.jfif"
-          alt="placeholder image"
-        />
-        <!-- added src -->
-        <!-- added alt -->
-        <!-- added class-->
-      </div>
-    </div>
-
     <section id="Contact-me">
       <!-- h2 heading for section-3 -->
-      <h2>Contact Me</h2>
+      <!-- putting <h2>Contact Me</h2> in a div -->
+      <aside>
+        <!-- removed div around <h2>Contact Me<h2> -->
+          <h2>Contact Me</h2>
+        
+      </aside>
       <!-- added id Contact0links -->
       <div>
         <!-- git hub, email, linkedin, phone number as links/ a tags -->
