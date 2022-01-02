@@ -1,30 +1,38 @@
 ul {
+  /* margin-bottom: 50px; */
+  /* padding-bottom: 30px; */
+  padding-right: 15px;
+
+  display: inline-block;
   display: flex;
   justify-content: flex-end;
-  text-decoration: turquoise;
+  /* text-decoration: turquoise; */
 }
 /* adding soaces between list items */
 
 #banner {
   width: 150%;
-  height: 30vh;
+  height: 28vh;
 }
 /*TODO: list items in nav bar must be responsive */
 #About-me {
-  display: inline;
-  background-color: tomato;
+  display: inline-block;
+  /* background-color: tomato; */
   margin: 4px;
+  /* margin-bottom: 20px; */
+  /* padding-bottom: 10px; */
+  /* background-color: aqua; */
 }
 
 #Work {
-  display: inline;
-  background-color: wheat;
+  display: inline-block;
+  /* background-color: wheat; */
   margin: 4px;
 }
 
 #Contact {
-  display: inline;
-  background-color: yellowgreen;
+  display: inline-block;
+  /* background-color: yellowgreen; */
   margin: 4px;
 }
 /* end of list items in nav bar */
@@ -37,18 +45,105 @@ ul {
   /* text-decoration: underline; */
   /* padding-top: 5px; */
   /* padding-left: 30px; */
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-/* changed header height to 15vh */
+/* changed header height to 10vh */
 header {
   background-color: black;
-  height: 15vh;
+  height: 13vh;
 }
 /* added h1 selector */
 h1 {
-  padding-left: 20px;
+  padding-left: 36px;
+  font-size: 150%;
 }
 
 /* adding body selector. position relative in body */
 body {
   position: relative;
 }
+
+/* create li selector to change color of list items in nav bar */
+/* li { */
+/* text-decoration: turquoise; */
+/* margin-bottom: 20px; */
+/* } */
+
+/* add a selcector to change color of links in nav bar */
+a {
+  color: rgb(55, 196, 182);
+  /* text-decoration: none; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* change size of .profile picture */
+.profile-picture img {
+  display: flex;
+  /* justify-content: right; */
+  width: 15%;
+  justify-content: end;
+}
+
+#banner-caption {
+  /* display: flex; */
+  /* justify-content: right; */
+  background-color: rgb(55, 196, 182);
+  /* display: inline-block; */
+  /* justify-content: right; */
+  /* display: inline-flex; */
+  /* justify-content: right; */
+  /* position: relative; */
+  /* display: ; */
+  position: relative;
+  bottom: 45px;
+  left: 1000px;
+  display: inline-block;
+  /* justify-content: right; */
+  font-size: 145%;
+  border-radius: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* created div with id= 'Contact-me' */
+#Contact-me {
+  display: flex;
+  justify-content: space-between;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+/* About me, Work, Contact Me <h2> */
+#About-me aside h2 {
+  display: flex;
+  font-size: 160%;
+  background-color: rgb(55, 196, 182);
+  display: inline-block;
+  border: black solid 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#Work aside h2 {
+  display: flex;
+  font-size: 160%;
+  background-color: rgb(55, 196, 182);
+  display: inline-block;
+  border: black solid 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#Contact-me aside h2 {
+  display: flex;
+  font-size: 160%;
+  background-color: rgb(55, 196, 182);
+  display: inline-block;
+  border: black solid 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#Contact-me ul li a {
+  margin: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+
+/* change picture size of cards */

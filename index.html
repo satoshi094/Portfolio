@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- adding style element -->
+    <!-- <style> -->
+      <!-- a:link { -->
+        <!-- color: aqua; -->
+        <!-- background-color: transparent; -->
+      <!-- } -->
+
+    <!-- </style> -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +21,7 @@
       <div id="name-box">
         <h1>Michael Waki</h1>
       </div>
-      <nav>
+      <nav id="nav-links">
         <ul>
           <!-- assigned id's to list items in nav bar -->
           <li id="About-me">
@@ -22,7 +30,7 @@
           <!--added <br>. Did not work to space items -->
           
           <li id="Work">
-            <a href="#my-Work"> Work</a>
+            <a href="#my-Work">Work</a>
           </li>
           <li id="Contact">
             <a href="#Contact-me">Contact Me</a>
@@ -35,14 +43,18 @@
      <img id="banner"
            src="./assets/images/banner-01.png"
            alt="futuristic gaming themed header image">
-    </div>
+           <!-- putting an <h2> on the banner -->
+             <!-- #banner-caption now in a div -->
+     <div>        
+             <h2 id="banner-caption">Cool subtitle here!</h2>
+     </div>
       
     <div id="hero" class="main-placeholder">
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, nostrum
         quos. Odio, quam! Officiis, eius! Suscipit totam repellat est pariatur
         facere aperiam iste voluptatum, doloremque non perspiciatis ipsa optio
-        ullam?
+        ullam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas perferendis dignissimos accusantium. Inventore quidem quae reiciendis ab dolorum nihil aspernatur. Pariatur reprehenderit itaque delectus magnam quaerat amet voluptates! Labore, animi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque suscipit excepturi vel inventore corrupti, itaque, dicta voluptatum reprehenderit, et iusto repellendus asperiores! Sequi, corporis! Dolorem optio aperiam magni fuga sequi.
       </p>
     </div>
     
@@ -50,13 +62,13 @@
 
       <section id="About-me">
         <aside>
-          <h2>About me</h2>
+          <h2>About Me</h2>
         </aside>
         <div class="profile-picture">
           <img
             src="./assets/images/About-me-image.jfif"
             alt="profile picture"
-            class="float-left"
+            
           />
         </div> 
         
@@ -69,17 +81,19 @@
            Enim voluptates architecto a officiis rerum sint labore ea harum
            explicabo accusantium, possimus eos quis cupiditate totam aspernatur
            nemo exercitationem, dolorem dolorum!
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim est, praesentium velit sed minus soluta ab qui. Adipisci atque sit laboriosam optio placeat delectus quaerat possimus id accusamus. Cum, beatae. 
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ea corporis placeat non, nemo voluptatem, deserunt quasi nulla fugiat possimus laboriosam, nesciunt obcaecati consequatur necessitatibus molestias nisi quaerat reiciendis quam.
          </p>
         </div>
       </section>
       <!-- adding main element -->
     <main>
-     <section id="my-Work">
+     <section id="Work">
       <!-- h2 heaeding for section-2 -->
       <aside>
         <!-- putting h2 my Work in a div -->
         <div>
-          <h2>my Work</h2>
+          <h2>Work</h2>
         </div>
       </aside>
       <!-- work cards -->
@@ -169,13 +183,20 @@
         
       </aside>
       <!-- added id Contact0links -->
-      <div>
+      <div id="Contact-me">
         <!-- git hub, email, linkedin, phone number as links/ a tags -->
-        <a href="https://github.com/satoshi094">GitHub</a>
-
-        <a href="#">Email</a>
-
-        <a href="#">Instagram</a>
+        <!-- creating li for links in #Contact-me -->
+        <ul>
+          <li>
+            <a href="https://github.com/satoshi094">GitHub</a>
+          </li>
+          <li>
+            <a href="#">Email</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+        </ul>
       </div>
     </section>
   </body>
