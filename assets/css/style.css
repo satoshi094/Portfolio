@@ -147,3 +147,8 @@ a {
 }
 
 /* change picture size of cards */
+/* added selector main and gave it position absolute */
+
+main {
+  position: relative;
+}
