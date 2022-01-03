@@ -35,6 +35,11 @@ ul {
   /* background-color: yellowgreen; */
   margin: 4px;
 }
+#Contact-me-links {
+  position: absolute;
+  left: 805px;
+  bottom: -384px;
+}
 /* end of list items in nav bar */
 
 #name-box {
@@ -140,7 +145,7 @@ a {
   display: inline-block;
   border: black solid 2px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  top: 1000px;
+  top: 1053px;
 }
 
 #Contact-me ul li a {
