@@ -152,3 +152,75 @@ a {
 main {
   position: relative;
 }
+
+/* creating selector for  */
+/* putting figcaption in the center of screen */
+figcaption {
+  position: absolute;
+  color: cyan;
+  font-size: 20px;
+
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+#refactoring-div {
+  /* display: flex; */
+  position: relative;
+}
+
+#refactoring-div img {
+  /* display: flex; */
+  position: absolute;
+  /* bottom: 1px; */
+  left: 300px;
+  width: 488px;
+  border: blue solid 2px;
+
+  height: 27vh;
+  bottom: -130px;
+}
+
+/* manipulated size of image cards */
+.card {
+  height: 20vh;
+  width: 33%;
+  border: black solid 5px;
+}
+
+#small-card-1 {
+  position: absolute;
+  /* left: 285px; */
+  height: 10vh;
+  width: 100px;
+  /* left: 662px; */
+  left: 687px;
+  bottom: -319px;
+}
+#small-card-2 {
+  position: absolute;
+  height: 10vh;
+  width: 100px;
+  left: 303px;
+  top: 200px;
+}
+
+#small-card-3 {
+  position: absolute;
+  left: 303px;
+  height: 10vh;
+  width: 100px;
+  bottom: 10px;
+  top: 300px;
+}
+
+/* selector for img #small-card-4 */
+#small-card-4 {
+  position: absolute;
+
+  height: 10vh;
+  width: 100px;
+  bottom: 18px;
+  left: 690px;
+  bottom: -230px;
+}
