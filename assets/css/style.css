@@ -163,15 +163,7 @@ main {
 
 /* creating selector for  */
 /* putting figcaption in the center of screen */
-figcaption {
-  position: absolute;
-  color: cyan;
-  font-size: 20px;
-
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
+/* figcaption { */
 #refactoring-div {
   /* display: flex; */
   position: relative;
@@ -219,7 +211,7 @@ figcaption {
   height: 10vh;
   width: 100px;
   bottom: 10px;
-  top: 300px;
+  top: 295px;
 }
 
 /* selector for img #small-card-4 */
